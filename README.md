@@ -4,17 +4,15 @@
 **Class:** CS 5610 Web Development (Online)  
 **Project Objective:** Build a personal homepage using vanilla HTML5, CSS3, and ES6 modules.
 
-## TODO: Edit with your own link!!!!!
-
 ## Live Demo
 
-https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/
+[https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/](https://github.com/SoniRusagara/cs5610-project1)
 
 ## TODO: Edit with your own link!!!!!
 
 ## Screenshot
 
-![Homepage screenshot](./img/screenshot.png)
+![Homepage screenshot](./img/profile.png)
 
 ## Features
 

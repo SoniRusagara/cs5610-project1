@@ -8,8 +8,6 @@
 
 https://github.com/SoniRusagara/cs5610-project1.git
 
-## TODO: Edit with your own link!!!!!
-
 ## Screenshot
 
 ![Homepage screenshot](./img/profile.png)

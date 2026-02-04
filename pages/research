@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Soni Rusagara" />
+    <meta
+      name="description"
+      content="Research notes and lessons learned from coursework and projects."
+    />
+
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>👩🏽‍💻</text></svg>"
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
+
+    <title>Soni Rusagara | Research Notes</title>
+  </head>
+
+  <body>
+    <header class="site-header">
+      <nav class="nav container">
+        <a class="nav__brand" href="../index.html">Soni Rusagara</a>
+        <ul class="nav__links">
+          <li><a class="nav__link" href="../index.html">Home</a></li>
+          <li><a class="nav__link" href="./projects.html">Projects</a></li>
+          <li><a class="nav__link" href="./proverbs.html">African Proverbs</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container">
+      <!-- Intro -->
+      <section class="section ai-banner">
+        <h1>Research Notes & Lessons Learned</h1>
+        <p class="muted">
+          This page reflects on my path into computer science research and
+          practical lessons I’ve learned along the way. Portions of the writing
+          were generated with AI and edited by me for clarity and accuracy, in
+          accordance with the CS 5610 AI disclosure requirement.
+        </p>
+      </section>
+
+      <!-- Journey -->
+      <section class="section">
+        <h2>How I got into research</h2>
+        <p>
+          I didn’t initially plan to pursue computer science research. My
+          interest grew through coursework and projects that raised questions I
+          couldn’t fully answer through implementation alone. Over time, I
+          learned that research is less about having perfect ideas and more
+          about asking clear questions and iterating based on feedback.
+        </p>
+      </section>
+
+      <!-- Surprises -->
+      <section class="section">
+        <h2>What surprised me</h2>
+        <ul>
+          <li>Research is often slower and messier than coursework.</li>
+          <li>Reading papers is a skill that improves with practice.</li>
+          <li>Most ideas change significantly after discussion and review.</li>
+        </ul>
+      </section>
+
+      <!-- Tips -->
+      <section class="section">
+        <h2>Practical tips for getting started</h2>
+        <ol>
+          <li>
+            Start by understanding and extending existing work before proposing
+            new ideas.
+          </li>
+          <li>
+            Keep notes while reading papers, especially questions or unclear
+            points.
+          </li>
+          <li>
+            Write early, even when ideas feel incomplete.
+          </li>
+          <li>
+            Talk through ideas with others; clarity often comes from
+            conversation.
+          </li>
+        </ol>
+      </section>
+
+      <section class="section">
+        <h2>How this connects to my current work</h2>
+        <p>
+          My research background influences how I approach software projects.
+          Even in front-end and web development, I treat design and technical
+          choices as hypotheses that can be tested, evaluated, and refined over
+          time.
+        </p>
+      </section>
+
+      <section class="section">
+        <p class="muted">
+          AI-assisted writing was used to help organize and clarify ideas on
+          this page. All content was reviewed, edited, and approved by me.
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-row">
+        <p class="muted">© <span id="year"></span> Soni Rusagara</p>
+        <p class="muted">Built for CS 5610</p>
+      </div>
+    </footer>
+
+    <script type="module" src="../js/main.js"></script>
+  </body>
+</html>

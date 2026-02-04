@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Soni Rusagara" />
+    <meta name="description" content="Projects by Soni Rusagara." />
+
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>👩🏽‍💻</text></svg>"
+    />
+
+    <link rel="stylesheet" href="../css/styles.css" />
+
+    <title>Soni Rusagara | Projects</title>
+  </head>
+
+  <body>
+    <header class="site-header">
+      <nav class="nav container">
+        <a class="nav__brand" href="../index.html">Soni Rusagara</a>
+        <ul class="nav__links">
+          <li><a class="nav__link" href="../index.html">Home</a></li>
+          <li><a class="nav__link" href="./projects.html">Projects</a></li>
+          <li><a class="nav__link" href="./research.html">Research</a></li>
+          <li><a class="nav__link" href="./proverbs.html">African Proverbs</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section class="section projects-hero">
+        <h1>Projects</h1>
+        <p class="muted">Filter and search to quickly find projects.</p>
+
+        <div class="projects-controls">
+          <div class="projects-search">
+            <label for="search" class="muted">Search</label>
+            <input
+              id="search"
+              class="input"
+              type="text"
+              placeholder="Search projects..."
+              autocomplete="off"
+            />
+          </div>
+
+          <div class="filters" role="group" aria-label="Filter projects by tag">
+            <button class="filter-button is-active" data-tag="all" type="button">All</button>
+            <button class="filter-button" data-tag="web" type="button">Web</button>
+            <button class="filter-button" data-tag="school" type="button">School</button>
+            <button class="filter-button" data-tag="mobile" type="button">Mobile</button>
+            <button class="filter-button" data-tag="backend" type="button">Backend</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div id="projectsGrid" class="cards"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-row">
+        <p class="muted">© <span id="year"></span> Soni Rusagara</p>
+        <p class="muted">Built for CS 5610</p>
+      </div>
+    </footer>
+
+    <script type="module" src="../js/main.js"></script>
+    <script type="module" src="../js/projects.js"></script>
+  </body>
+</html>

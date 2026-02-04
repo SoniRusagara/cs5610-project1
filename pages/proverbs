@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Soni Rusagara" />
+    <meta
+      name="description"
+      content="African Proverb of the Day — scratch to reveal the proverb and meaning."
+    />
+
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>👩🏽‍💻</text></svg>"
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <title>Soni Rusagara | Proverb of the Day</title>
+  </head>
+
+  <body>
+    <header class="site-header">
+      <nav class="nav container">
+        <a class="nav__brand" href="../index.html">Soni Rusagara</a>
+        <ul class="nav__links">
+          <li><a class="nav__link" href="../index.html">Home</a></li>
+          <li><a class="nav__link" href="./projects.html">Projects</a></li>
+          <li><a class="nav__link" href="./research.html">Research</a></li>
+          <li><a class="nav__link" href="./proverbs.html">African Proverbs</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section class="section">
+        <h1>African Proverb of the Day</h1>
+        <p class="muted">
+          Pick a mood, then scratch the card to reveal today’s proverb.
+        </p>
+
+        <div class="proverbs-controls">
+          <div class="proverbs-moods" role="group" aria-label="Choose a mood">
+            <button class="button proverb-mood is-active" data-mood="wisdom">Wisdom</button>
+            <button class="button button--secondary proverb-mood" data-mood="courage">Courage</button>
+            <button class="button button--secondary proverb-mood" data-mood="community">Community</button>
+            <button class="button button--secondary proverb-mood" data-mood="patience">Patience</button>
+          </div>
+
+          <div class="proverbs-actions">
+            <button id="newProverbBtn" class="button">New proverb</button>
+            <button id="resetScratchBtn" class="button button--secondary">Reset scratch</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <article class="proverb-card" aria-live="polite">
+          <header class="proverb-card__top">
+            <p class="proverb-card__label muted">Selected mood</p>
+            <p id="moodLabel" class="proverb-card__mood">Wisdom</p>
+          </header>
+
+          <div class="scratch-wrap" aria-label="Scratch card to reveal today’s proverb">
+            <div class="scratch-front" id="scratchFront">
+              <p class="scratch-front__title">Scratch to reveal</p>
+              <p class="muted scratch-front__subtitle">
+                Origin: Africa · Reveal the proverb, meaning, and reflection prompt
+              </p>
+            </div>
+
+            <canvas id="scratchCanvas" class="scratch-canvas" aria-hidden="true"></canvas>
+            <div class="scratch-hint" id="scratchHint">Scratch here ✨</div>
+          </div>
+
+          <div id="revealContent" class="reveal is-hidden">
+            <h2 id="proverbText" class="proverb-card__proverb"></h2>
+            <p id="originText" class="muted proverb-card__origin"></p>
+
+            <h3 class="reveal__title">Meaning</h3>
+            <p id="meaningText" class="reveal__meaning"></p>
+
+            <div class="reflection-block">
+              <h3 class="reveal__title">Quick reflection</h3>
+              <p class="muted">In one sentence: how could you apply this today?</p>
+
+              <label class="muted" for="reflection">Your note</label>
+              <textarea
+                id="reflection"
+                class="proverb-textarea"
+                rows="3"
+                placeholder="Example: I should ask for help instead of struggling alone."
+              ></textarea>
+
+              <div class="reveal__row">
+                <button id="saveReflectionBtn" class="button">Save note</button>
+                <button id="clearReflectionBtn" class="button button--secondary">Clear</button>
+              </div>
+
+              <p id="savedMsg" class="muted" hidden>Saved</p>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="section">
+        <h2>Saved notes</h2>
+        <p class="muted">Stored in your browser (localStorage).</p>
+        <ul id="savedList" class="saved-list"></ul>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-row">
+        <span class="muted">© 2026 Soni Rusagara</span>
+        <span class="muted">Built with vanilla HTML/CSS/JS</span>
+      </div>
+    </footer>
+
+    <script type="module" src="../js/proverbs.js"></script>
+  </body>
+</html>

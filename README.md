@@ -28,6 +28,7 @@ Option 2 (recommended):
 - Use VS Code Live Server
 - Right-click `index.html` → “Open with Live Server”
 
+
 ## GenAI Use (Required)
 
 - Tool: ChatGPT (GPT-5.2 Thinking)

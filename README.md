@@ -6,7 +6,6 @@
 
 ## Live Demo
 
-https://github.com/SoniRusagara/cs5610-project1.git OR 
 https://sonirusagara.github.io/cs5610-project1/
 
 ## Features

@@ -6,7 +6,7 @@
 
 ## Live Demo
 
-https://sonirusagara.github.io/cs5610-project1/
+https://sonirusagara.github.io/cs5610-project1/   Public video link is missing 
 
 ## Features
 
@@ -69,3 +69,7 @@ See [DESIGN.md](./DESIGN.md)
 ## License
 
 MIT
+
+
+Peer Review : 
+Everything looks good except a little tweaks, I liked the scratch feature which is very apt to the website. It syncs with the context.

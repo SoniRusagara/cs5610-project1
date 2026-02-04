@@ -21,14 +21,15 @@ See [DESIGN.md](./DESIGN.md)
 
 ## How to run locally
 
-Option 1:
+### Option 1: Open directly in a browser
+- Download or clone the repository
+- Open `index.html` in any modern web browser
 
-- Open `index.html` directly in a browser
+### Option 2 (recommended): VS Code Live Server
+- Open the project folder in VS Code
+- Install the **Live Server** extension
+- Right-click `index.html` → **Open with Live Server**
 
-Option 2 (recommended):
-
-- Use VS Code Live Server
-- Right-click `index.html` → “Open with Live Server”
 
 
 ## GenAI Use (Required)

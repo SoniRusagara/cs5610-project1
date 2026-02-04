@@ -13,6 +13,8 @@ https://sonirusagara.github.io/cs5610-project1/
 - Responsive layout using CSS Grid + Flexbox
 - Projects page with JS search + tag filters (creative addition)
 - Multi-page site: Home, Projects, Research page
+- African Proverbs page with interactive scratch-style reveal (creative JS feature)
+
 
 ## Design Document
 See [DESIGN.md](./DESIGN.md)

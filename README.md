@@ -9,10 +9,6 @@
 https://github.com/SoniRusagara/cs5610-project1.git OR 
 https://sonirusagara.github.io/cs5610-project1/
 
-## Screenshot
-
-![Homepage screenshot](./img/profile.png)
-
 ## Features
 
 - Responsive layout using CSS Grid + Flexbox

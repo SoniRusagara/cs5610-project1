@@ -6,7 +6,7 @@
 
 ## Live Demo
 
-[https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/](https://github.com/SoniRusagara/cs5610-project1)
+https://github.com/SoniRusagara/cs5610-project1.git
 
 ## TODO: Edit with your own link!!!!!
 
